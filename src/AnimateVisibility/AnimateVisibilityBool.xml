@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.mendix.com/widget/1.0/" id="AnimateVisibility.widget.AnimateVisibilityBool" needsEntityContext="true">
+    <name>Animate Visibility (boolean)</name>
+    <description></description>
+    <icon />
+    <properties>
+        <property key="duration" type="integer" defaultValue="500">
+            <caption>Duration (ms)</caption>
+
+            <category>Effect</category>
+            <description />
+        </property>
+        <property key="elementName" type="string">
+            <caption>Element</caption>
+            <category>Effect</category>
+            <description>The Mendix Name of the element to set the visibility of</description>
+        </property>
+        <property key="bool" type="attribute">
+            <caption>Boolean</caption>
+            <category>Data</category>
+            <description>The boolean that defines the visibility</description>
+            <attributeTypes>
+                <attributeType name="Boolean" />
+            </attributeTypes>
+        </property>
+        <property key="visibleOnMatch" type="boolean" defaultValue="true">
+            <caption>Visible on true</caption>
+            <category>Data</category>
+            <description />
+        </property>       
+        
+    </properties>
+</widget>

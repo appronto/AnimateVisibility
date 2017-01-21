@@ -1,0 +1,7 @@
+.hidden{
+	display: none;
+}
+
+.animateVisibility{
+	transition: margin .5s ease;
+}

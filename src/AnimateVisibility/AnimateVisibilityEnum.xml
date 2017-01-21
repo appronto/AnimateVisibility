@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.mendix.com/widget/1.0/" id="AnimateVisibility.widget.AnimateVisibilityEnum" needsEntityContext="true">
+    <name>Animate Visibility (enumuration)</name>
+    <description></description>
+    <icon />
+    <properties>
+        <property key="duration" type="integer" defaultValue="500">
+            <caption>Duration (ms)</caption>
+
+            <category>Effect</category>
+            <description />
+        </property>
+        <property key="elementName" type="string">
+            <caption>Element</caption>
+            <category>Effect</category>
+            <description>The Mendix Name of the element to set the visibility of</description>
+        </property>
+        <property key="enum" type="attribute">
+            <caption>Enumeration</caption>
+            <category>Data</category>
+            <description>The enumeration that defines the visibility</description>
+            <attributeTypes>
+                <attributeType name="Enum" />
+            </attributeTypes>
+        </property>
+        <property key="matchOnEmpty" type="boolean" defaultValue="true">
+            <caption>Match on empty attribute</caption>
+            <category>Data</category>
+            <description />
+        </property>
+        <property key="visibleOnMatch" type="boolean" defaultValue="true">
+            <caption>Visible on Match</caption>
+            <category>Data</category>
+            <description />
+        </property>
+        <property key="keysToMatch" type="object" isList="true">
+            <caption>Keys to match</caption>
+            <category>Data</category>
+            <description></description>
+            <properties>
+                <property key="key" type="string">
+                    <caption>Key</caption>
+                    <category>Key</category>
+                    <description></description>
+                </property>
+            </properties>
+        </property>
+        
+        
+    </properties>
+</widget>
